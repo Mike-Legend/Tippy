@@ -4,15 +4,16 @@ plugins {
 }
 
 android {
-    namespace 'com.example.tippy'
+    namespace 'astroxenos.tippy'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.tippy"
+        applicationId "astroxenos.tippy"
         minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -48,6 +49,7 @@ android {
 
 dependencies {
 
+    implementation "androidx.multidex:multidex:2.0.1"
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.0')

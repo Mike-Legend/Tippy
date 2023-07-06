@@ -1,4 +1,4 @@
-package com.example.tippy
+package astroxenos.tippy
 
 import org.junit.Test
 

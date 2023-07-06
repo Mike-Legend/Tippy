@@ -7,6 +7,7 @@
         android:label="Tippy"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name="androidx.multidex.MultiDexApplication"
         android:theme="@style/Theme.Tippy">
         <activity
             android:name=".MainActivity"

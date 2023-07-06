@@ -1,4 +1,4 @@
-package com.example.tippy
+package astroxenos.tippy
 
 import android.animation.ArgbEvaluator
 import android.os.Bundle
@@ -9,16 +9,7 @@ import android.widget.EditText
 import android.widget.SeekBar
 import android.widget.TextView
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.content.ContextCompat
-import com.example.tippy.ui.theme.TippyTheme
 
 private const val TAG = "MainActivity"
 private  const val INITIAL_TIP_PERCENT = 15

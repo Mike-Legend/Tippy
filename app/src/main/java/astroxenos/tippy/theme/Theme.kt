@@ -1,4 +1,4 @@
-package com.example.tippy.ui.theme
+package astroxenos.tippy.theme
 
 import android.app.Activity
 import android.os.Build
